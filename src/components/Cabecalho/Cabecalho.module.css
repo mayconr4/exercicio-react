@@ -1,0 +1,17 @@
+.titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 2rem;
+}
+.topoSite {
+  background-color: #455883;
+  color: whitesmoke;
+  padding: 1rem;
+
+  a {
+    text-decoration: none;
+    color: #61dafb;
+  }
+}
