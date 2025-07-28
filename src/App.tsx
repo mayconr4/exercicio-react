@@ -8,6 +8,7 @@ import RockProgressivo from "./pages/RockProgressivo";
 import Pagina404 from "./pages/Pagina404";
 import Menu from "./components/Conteudo/Menu/Menu";
 import estilos from "./App.module.css";
+import "./global.css";
 
 export default function App() {
   return (
