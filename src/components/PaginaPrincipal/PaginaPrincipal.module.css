@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(35, 36, 30, 0.1);
+  padding: 32px;
+  max-width: 900px;
+  margin: 40px auto;
+  align-items: flex-start;
+  gap: 32px;
+}

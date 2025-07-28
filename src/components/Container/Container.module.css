@@ -1,3 +1,10 @@
+/* Aplicando Flexbox para layout de menu e conteúdo */
+.paginaPrincipalContainer {
+  display: flex;
+  justify-content: space-between; /* Espaço entre o menu e o conteúdo */
+  padding: 20px;
+}
+
 .container {
   padding: 1rem;
   max-width: 800px;
@@ -5,8 +12,43 @@
   background-color: #fff;
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.27) 2px 2px 8px;
+  display: flex;
+  justify-content: flex-start;
 
   h2 {
     color: #007acc;
   }
+}
+
+.menu {
+  width: 250px; /* Largura fixa para o menu */
+  background-color: #333; /* Cor de fundo para o menu */
+  padding: 20px;
+  color: white;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  margin-bottom: 15px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+/* O conteúdo ocupa o restante do espaço */
+.conteudoPagina {
+  flex: 1; /* O conteúdo ocupa o restante do espaço disponível */
+  padding: 20px;
+  background-color: #f0f0f0;
 }

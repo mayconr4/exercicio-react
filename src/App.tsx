@@ -6,6 +6,8 @@ import ClassicRock from "./pages/ClassicRock";
 import HeavyMetal from "./pages/HeavyMetal";
 import RockProgressivo from "./pages/RockProgressivo";
 import Pagina404 from "./pages/Pagina404";
+import Menu from "./components/Conteudo/Menu/Menu";
+import estilos from "./App.module.css";
 
 export default function App() {
   return (
@@ -13,6 +15,8 @@ export default function App() {
       <Cabecalho />
 
       <Container>
+        <Menu />
+        <div className={estilos.menu}></div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/ClassicRock" element={<ClassicRock />} />
